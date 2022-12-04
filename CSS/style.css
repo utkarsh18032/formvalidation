@@ -1,0 +1,36 @@
+body{
+    padding:10px,50px;
+}
+.formdesign{
+    font-size:20px;
+    margin-top:20px;
+  
+    
+}
+.formdesign input{
+    width:50%;
+    padding:10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    font-size: 15px;
+    
+    
+}
+.formerror{
+    color: red;
+}
+.btn{
+    width:80px;
+    height:40px;
+    font-size:20px;
+    border: 1px solid green;
+    border-radius: 5px;
+    color:royalblue;
+    margin:10px;
+
+}
+h1{
+    text-transform:capitalize;
+    color:blueviolet;
+    text-align: center;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>javascript form validation</title>
+</head>
+<body>
+    <h1> form validation using html , css , javascript</h1>
+    <form name="myform" onsubmit="return validateForm()">  
+        
+        <div class="formdesign" id="name">
+NAME :<br>
+<input type="text" name="fname"  placeholder="enter your name" required="true">
+<b><span class="formerror"></span></b>
+        </div>
+
+    <div class="formdesign" id="email">
+    E-MAIL:<br>
+    <input type="email" name="femail"  placeholder="enter your E-mail id" required="true">
+    <b><span class="formerror"></span></b>
+    </div>
+
+    <div class="formdesign" id="phone">
+    PHONE :<br>
+    <input type="number" name="fphone"  placeholder="enter your Mobile Number" required="true">
+    <b><span class="formerror"></span></b>
+    </div>
+                                
+    <div class="formdesign" id="pass">
+    PASSWORD:<br>
+    <input type="password" name="fpass"  placeholder="enter your password" required="true">
+    <b><span class="formerror"></span></b>
+    </div>
+
+    <div class="formdesign" id="cpass">
+   CONFIRM-PASSWORD:<br>
+   <input type="password" name="fcpass"  placeholder="rewrite above password" required="true">
+    <b><span class="formerror"></span></b>
+   </div>
+   <br>
+<input class="btn" type="submit" value="submit">
+
+</form>
+
+    <script src="index.js"></script>
+</body>
+</html>
